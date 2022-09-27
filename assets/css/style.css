@@ -1,0 +1,39 @@
+li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+ul {
+    padding-inline-start: 1.2em;
+}
+
+ul li {
+    list-style: none;
+}
+
+.hunde li::before {
+    content: "🐕";
+}
+
+.cat li::before {
+    content: "🐈";
+}
+
+.Snake li::before {
+    content: "🐉";
+}
+
+.eidech li::before {
+    content: "🐍";
+}
+
+
+.vog li::before {
+    content: "🐧";
+}
+
+section {
+    border: 2px solid black;
+    margin-right: 0rem;
+    font-size: 1.5rem;
+}
